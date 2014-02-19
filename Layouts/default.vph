@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?= $this->title_for_layout; ?></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <?= $this->html->Css('public/Css/style.css', array('media' => 'all', 'rel' => 'stylesheet', 'type' => 'text/css')); ?>
+    </head>
+    <body>
+        <div id='wrap'>
+            <div id='content'>
+                <div>
+                    <?= $this->flash() ?>
+                    <?= $this->content_for_layout; ?>
+                </div>
+            </div>
+        </div>
+        <?= $this->script_for_layout ?>
+        <?= $this->debug() ?>
+    </body>
+</html>

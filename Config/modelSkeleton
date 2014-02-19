@@ -1,0 +1,47 @@
+<?php
+    use App\Config\Models as Model;
+
+    /**
+     * Description of className  Model
+     *
+     */
+
+    class className extends Model\AppModel {
+
+        /**
+        * Select All Row
+        */
+        public function findAll() {
+            return $this->find(array('All'));
+        }
+
+        /**
+        * Find with Condition(s)
+        */
+        public function findFirst($fields = array(), $conditions = NULL) {
+            return $this->find(array('First', 'Fields' => $fields, 'Conditions' => $conditions));
+        }
+
+        /**
+        * Insert a New Row
+        */
+        public function insertRow($fields) {
+            $this->save($fields);
+        }
+
+        /**
+        * Update a Row
+        */
+        public function updateRow($fields, $id) {
+            $this->save($fields, $id);
+        }
+
+        /**
+        * Delete a Row
+        */
+        public function deleteRow($id) {
+            $this->delete($id);
+        }
+
+
+    }

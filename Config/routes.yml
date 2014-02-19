@@ -1,0 +1,19 @@
+# Defining Routes.
+------------------
+routes1 : 
+  pattern : /
+  url : Infos/index
+routes2 : 
+  pattern : /Cours/{slug-id}
+  url : Cours/selectCours
+  requis : slug = \w+; id = \d+
+--------------------------------------
+routes3 : 
+  pattern : /Autoformations/{slug-id}
+  url : Autoformations/selectCours
+  requis : slug = \w+; id = \d+
+--------------------------------------
+routes4 : 
+  pattern : /Exercices/{slug-id}
+  url : Exercices/selectExercice
+  requis : slug = \w+; id = \d+

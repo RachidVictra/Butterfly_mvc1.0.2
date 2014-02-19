@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Page 404</title>
+    </head>
+    <body>
+        <div style='color:#FA3D55;padding: 85px;text-align: center;font-size: 38px;text-shadow: -1px -1px #eee, 1px 1px #888, -3px 0 4px #000;font-family: "Segoe print", Arial, Helvetica, sans-serif;'>
+            <h1>Page 404 <span style="color:#00A2E8">ButterFly </span><span style="font-style:italic;color:#95ca05;">MVC!</span></h1>
+            <h3>Page not found !!</h3></div>
+    </body>
+</html>

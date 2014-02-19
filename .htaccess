@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9\-\_\/=,]*) index.php?url=/$1
+RewriteRule ^.*\Controllers/ /foo [F]
+RewriteRule ^.*\Models/ /foo [F]
+RewriteRule ^.*\Views/ /foo [F]
+RewriteRule ^.*\Data/ /foo [F]
+RewriteRule ^.*\Config/ /foo [F]

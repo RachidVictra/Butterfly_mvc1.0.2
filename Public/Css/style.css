@@ -1,0 +1,74 @@
+* { padding: 0; margin: 0; }
+*{ cursor: inherit;}
+body {
+    margin: 0;  padding: 0;
+    font: normal 75%/1.5em Calibri, Tahoma, sans-serif;
+    color: #555;
+    text-align: center;     
+}
+
+a {color: #72A545; cursor:pointer;}
+a:hover {color: #006699; text-decoration: underline; }
+
+#wrap{
+    background: #FFF url('http://imagesup.org/images11/1384016321-bgbutterfly.png') no-repeat;
+    width: 702px;
+    height: 500px;
+    text-align: left;   
+    padding: 0;
+    margin: 0 auto;
+}
+
+#content{
+    padding-top : 120px;
+    text-align: center;
+    color:#FA3D55;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background: #74A846;
+    height: 29px;
+    padding-left: 11px;
+    padding-right: 11px;
+    color: #fff;
+    text-align: center;
+}
+tr {
+    height: 25px;
+}
+td {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+tr.row-a {
+    background: #F8F8F8;
+}
+tr.row-b {
+    background: #EFEFEF;
+}
+
+.flash{
+    margin: 15px;
+    padding:15px;
+    text-indent: 25px;
+    background:#D2EFD2;
+    border: 1px solid #00AA00;
+    color :#00AA00;
+}
+.error{
+    margin: 15px;
+    padding:15px;
+    text-indent: 25px;
+    background:#EFD2D2;
+    border: 1px solid #FE0000;
+    color :#FE0000;
+}
+
+.hidden{
+    display: none;
+}
